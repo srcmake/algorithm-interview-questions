@@ -1,0 +1,27 @@
+// Attempt #1: Keep moving zeroes to the right
+array = [2, 0, 1, 5, 0]
+
+// Go through each element in the array.
+for(i = 0; i < array.length; i++) 
+	{
+	element = array[i]
+	
+	// We found a zero so we should shift this right.
+	if(element == 0)
+		{
+		// Look for the nearest non-zero.
+		for(j = i+1; j < array.length; j++)
+			{
+			nearbyElement = array[j]
+			
+			// This element isn't a zero, so swap it with our zero
+			if(nearbyElement != 0) 
+				{
+				// Swap and move on.
+				array[i] = nearbyElement
+				array[j] = element
+				break
+				}
+			}
+		}
+	}
