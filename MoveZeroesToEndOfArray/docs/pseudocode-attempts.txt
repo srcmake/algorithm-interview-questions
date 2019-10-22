@@ -35,8 +35,6 @@ const newArray = []
 // Go through each element in the original array.
 for(element in originalArray) 
 	{
-	element = originalArray[i]
-
 	// If the element is a non-zero, put it in the new array.
 	if(element != 0)
 		{
