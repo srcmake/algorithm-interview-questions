@@ -1,4 +1,4 @@
-# Algorithm Questions + Answers
+# Algorithm Interview Questions + Answers
 
 This repository contains C++ code that solves algorithm questions that gets asked in interviews. This repo will be continuously updated with more questions and answers (hopefully).
 
@@ -21,9 +21,9 @@ Then run the make file which will compile the code with GCC (C++11) using:
 make
 ```
 
-## Questions
+# Questions
 
-- Move Zeroes To The End Of An Array - [Blogpost](https://www.srcmake.com/home/move-zeroes-to-end-of-array) | [Youtube Video](https://www.youtube.com/srcmake)
+- Move Zeroes To The End Of An Array - [Blogpost](https://www.srcmake.com/home/move-zeroes-to-end-of-array) | [Youtube Video](https://youtu.be/OrL7k-74g58)
 
 ### License
 
