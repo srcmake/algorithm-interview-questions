@@ -25,6 +25,8 @@ make
 
 - Move Zeroes To The End Of An Array - [Blogpost](https://www.srcmake.com/home/move-zeroes-to-end-of-array) | [Youtube Video](https://youtu.be/OrL7k-74g58)
 
+- Next Greater Element In An Array - [Blogpost] | [Youtube Video]
+
 ### License
 
 This repository is under an MIT License.
