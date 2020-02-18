@@ -80,10 +80,10 @@ int main()
 	cout << endl;
 
 	// Example 2
-	array = { 1, 3, 2, 4, 4, 6, 5 };
-	PrintArray(array); // 1 3 2 4 4 6 5
+	array = { 1, 3, 2, 6, 4, 5, 2 };
+	PrintArray(array); // 1 3 2 6 4 5 2
 	ngeArray = NextGreaterElement(array);
-	PrintArray(ngeArray); // 3 4 4 6 6 -1 -1
+	PrintArray(ngeArray); // 3 6 6 -1 5 -1 -1
 	cout << endl;
 	
 	std::cout << "Program ended.\n";
