@@ -29,14 +29,7 @@ vector<int> NextGreaterElement(vector<int> A)
 	// For each element in A...
 	for(int i = 0; i < A.size(); i++)
 		{
-		// If the stack is empty, then just push the index of the element onto the stack.
-		if(s.empty() == true)
-			{
-			s.push(i);
-			continue;
-			}
-
-		// Otherwise, check if this element is the NGE for the elements currently on the stack.
+		// Check if this element is the NGE of the elements on the stack.
     while(s.empty() == false)
       {
       int topOfStackIndex = s.top();
